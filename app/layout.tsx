@@ -16,6 +16,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jose Collas, English Teacher",
   description: "Learn English online with Jose Collas",
+  keywords: ["English lessons", "ESL", "Peru", "Jose", "grammar", "online teaching"],
+  openGraph: {
+    title: "English Teach",
+    description: "Learn English online with Jose – interactive lessons and grammar guides.",
+    url: "https://yourdomain.com",
+    siteName: "Jose Collas, English Teacher",
+    images: ["/opengraph-image.jpg"],
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
