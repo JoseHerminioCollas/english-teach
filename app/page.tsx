@@ -2,7 +2,7 @@ export default function HomePage() {
   return (
     <section className="flex flex-col items-center justify-center min-h-screen bg-background text-foreground font-sans px-6">
       <h1 className="text-5xl font-bold mb-6 text-center">
-        Learn English online With Jose Collas, native English teacher.
+        Learn English online with Jose Collas, native English teacher.
       </h1>
 
       <p className="text-lg mb-10 max-w-2xl text-center">
