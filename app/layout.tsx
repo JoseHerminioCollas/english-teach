@@ -34,7 +34,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="min-h-screen flex flex-col bg-background text-foreground font-sans">
         <header className="w-full px-6 py-4 bg-foreground text-background shadow flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Jose Collas <br /><small className="text-lg">Native English Teacher</small></h1>
+          <h1 className="text-2xl font-bold">Collas English<br /><small className="text-lg">
+            Learn English with Jose Collas</small></h1>
           <nav className="flex gap-6 text-sm font-medium">
             <Link href="/" className="hover:underline">Home</Link>
             <Link href="/about_jose" className="hover:underline">About Jose</Link>
