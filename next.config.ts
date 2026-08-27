@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/english-teach", // must match your repo name
+  images: { unoptimized: true }, // disables server image optimization
 };
 
 export default nextConfig;
