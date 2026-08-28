@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
-Sitemap: https://yourdomain.com/sitemap.xml
+
+# Block duplicate or unnecessary paths
+Disallow: /_next/
+Disallow: /api/
+Disallow: /static/
+
+# Sitemap reference
+Sitemap: https://collasenglish.xyz/sitemap.xml
