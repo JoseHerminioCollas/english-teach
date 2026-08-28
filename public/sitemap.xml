@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://yourdomain.com/</loc>
+    <loc>https://collasenglish.xyz/</loc>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
-    <loc>https://yourdomain.com/about_jose</loc>
+    <loc>https://collasenglish.xyz/about_jose/</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-28</lastmod>
   </url>
   <url>
-    <loc>https://yourdomain.com/contact</loc>
+    <loc>https://collasenglish.xyz/contact/</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-08-28</lastmod>
   </url>
 </urlset>
