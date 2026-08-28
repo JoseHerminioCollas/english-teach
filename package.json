@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next export",
-    "deploy": "next build && next export",
-    "start": "next start",
-    "lint": "eslint"
+  "dev": "next dev",
+  "build": "next build",
+  "start": "serve out",
+  "lint": "eslint"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.10",
