@@ -14,19 +14,32 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jose Collas, English Teacher",
+  title: "Learn English Online with Jose Collas",
   description: "Learn English online with Jose Collas",
-  keywords: ["English lessons", "ESL", "Peru", "Jose", "grammar", "online teaching"],
+  keywords: [
+    "learn English online",
+    "English teacher",
+    "Jose Collas",
+    "virtual classes",
+    "TEFL",
+    "ESL",
+    "Peru",
+    "grammar",
+  ],
   openGraph: {
-    title: "English Teach",
-    description: "Learn English online with Jose – interactive lessons and grammar guides.",
-    url: "https://yourdomain.com",
-    siteName: "Jose Collas, English Teacher",
+    title: "Collas English - Learn English with Jose Collas",
+    description: "Learn English online with Jose Collas, native speaker.",
+    url: "https://collasenglish.xyz",
+    siteName: "Collas English",
     images: ["/opengraph-image.jpg"],
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="en"
@@ -34,13 +47,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <body className="min-h-screen flex flex-col bg-background text-foreground font-sans">
         <header className="w-full px-6 py-4 bg-foreground text-background shadow flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Collas English<br /><small className="text-lg">
-            Learn English with Jose Collas</small></h1>
+          <h1 className="text-2xl font-bold">
+            Collas English
+            <br />
+            <small className="text-lg">Learn English with Jose Collas</small>
+          </h1>
           <nav className="flex gap-6 text-sm font-medium">
-            <Link href="/" className="hover:underline">Home</Link>
-            <Link href="/about_jose" className="hover:underline">About Jose</Link>
+            <Link href="/" className="hover:underline">
+              Home
+            </Link>
+            <Link href="/about_jose" className="hover:underline">
+              About Jose
+            </Link>
             {/* <Link href="/lessons" className="hover:underline">Lessons</Link> */}
-            <Link href="/contact" className="hover:underline">Contact</Link>
+            <Link href="/contact" className="hover:underline">
+              Contact
+            </Link>
           </nav>
         </header>
 
@@ -51,7 +73,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Footer */}
         <footer className="w-full px-6 py-4 bg-foreground text-background text-sm text-center">
-          © {new Date().getFullYear()} Jose Collas, English Teacher. All rights reserved.
+          © {new Date().getFullYear()} Jose Collas, English Teacher. All rights
+          reserved.
         </footer>
       </body>
     </html>
